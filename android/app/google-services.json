@@ -1,0 +1,49 @@
+
+{
+  "project_info": {
+    "project_number": "223793989507",
+    "firebase_url": "https://umeed-2d7e6.firebaseio.com",
+    "project_id": "umeed-2d7e6",
+    "storage_bucket": "umeed-2d7e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223793989507:android:69fc7f1a656463d8b858b6",
+        "android_client_info": {
+          "package_name": "com.umeeds.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223793989507-q3avqdbg28alh8v2nhle5s8jvv82tl7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.umeeds.app",
+            "certificate_hash": "00fee115d153bd8de0c6b9410e4f8e85fdc9d1a9"
+          }
+        },
+        {
+          "client_id": "223793989507-unea2mhms2scnoc9c695ssnipuismgds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvzI3kUIScQy_duF69HbGw9sFzd-Mnl_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223793989507-unea2mhms2scnoc9c695ssnipuismgds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

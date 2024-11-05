@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Example: Request microphone permission -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Example: Request storage read and write permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+            android:label="Umeed"
+            android:name="${applicationName}"
+            android:icon="@mipmap/ic_launcher">
+        <receiver
+                android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+                android:enabled="true"
+                android:exported="false"> <!-- Set exported to false as needed -->
+            <!-- Intent filters and other configurations -->
+        </receiver>
+    </application>
+</manifest>
